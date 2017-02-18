@@ -16,15 +16,21 @@ This method is very important, it need to be set first. As soon as you initializ
 otherwise default constructor will set your MPU6050 to "Slave Mode" plus +/- 2g Accerlation and +/- 250 deg/sec Gyro.
 
 <b> readAccel() </b>
+
 <b> readGyro() </b>
 
 These two methods read the current value of x/y/z-axis Accerlation and x/y/z-axis Gyro. So everytime loop iterate this need to calls everytime, so as to read refreshed values.
 
 <b> double getXAccel() </b>
+
 <b> double getYAccel() </b>
+
 <b> double getZAccel() </b>
+
 <b> double getXGyro() </b>
+
 <b> double getYGyro() </b>
+
 <b> double getZGyro() </b>
 
 
